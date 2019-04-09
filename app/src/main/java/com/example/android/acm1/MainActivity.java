@@ -72,11 +72,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.home) {
-            AboutFragment mainFragment = new AboutFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, mainFragment);
-            fragmentTransaction.commit();
+
         } else if (id == R.id.announcements) {
 
         } else if (id == R.id.resources) {
@@ -86,7 +82,11 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, mainFragment);
             fragmentTransaction.commit();
         } else if (id == R.id.about) {
-
+            AboutFragment mainFragment = new AboutFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
+                    getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, mainFragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
