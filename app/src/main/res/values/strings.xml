@@ -11,5 +11,8 @@
     <string name="mission_title">Our Mission</string>
     <string name="mission">To serve students at Cal state L.A. and other interested persons in the Los Angeles community.</string>
 
-
+    <string name="contact_us">Contact Us</string>
+    <string name="office_time">OFFICE LOCATION &amp; TIMINGS</string>
+    <string name="online_contact">ONLINE CONTACT</string>
+    <string name="email_us">Email Us</string>
 </resources>
