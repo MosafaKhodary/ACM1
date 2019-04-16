@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.home) {
-
+            
         } else if (id == R.id.announcements) {
             AnnouncementsFragment mainFragment = new AnnouncementsFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
